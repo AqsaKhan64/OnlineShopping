@@ -1,0 +1,1110 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Dosis:wght@300;500&family=Lobster&family=Ramaraja&family=Roboto:wght@100&display=swap');
+body{
+    font-family: 'Dosis', sans-serif;
+}
+
+.mr-1{
+    margin-right: 80px;
+}
+.px-3{
+    font-size: 20px;
+}
+.mx-auto{
+    padding-left: 150px;
+}
+.link{
+    padding-left: 15px;
+    font-size: 20px;
+}
+.main-item{
+    margin-left: 118px;
+}
+.logo{
+    max-width: 240px;
+    left: 60px;
+    top: 7px;
+    position: absolute;
+}
+.style{
+    color: black;
+}
+.style:hover{
+    color: red;
+}
+.nav-btn{
+    border-radius: 18px;
+    padding: 8px 30px;
+}
+.nav-sign{
+    margin-right: 15px;
+    margin-top: 5px;
+}
+.nav-log{
+    margin-right: 18px;
+    margin-top: 5px;
+}
+.item-1{
+
+    padding: 10px 6px;
+}
+.banner::before{
+    background-image: url('../images/wmn.webp');
+    width: 100%;
+    height: 650px;
+    background-size: cover;
+    content: "";
+    position: absolute;
+    top: 100;
+    left: 0;
+  z-index: -1;
+  width: 100%;
+ filter: brightness(0.6);
+}
+.ban-text{
+    padding-top: 50px;
+}
+.ban-head{
+    font-size: 50px;
+}
+.ban-text1{
+    padding-top: 330px;
+}
+.main-text{
+    padding-left: 50px;
+}
+.carousel-item{
+    height: 600px;
+}
+.men-banner::before{
+    background-image: url('../images/men.webp');
+    height: 650px;
+    background-size: cover;
+    content: "";
+    position: absolute;
+    top: 100;
+    left: 0;
+  z-index: -1;
+  width: 100%;
+ filter: brightness(0.6);
+}
+.bag-banner::before{
+    background-image: url('../images/kid.webp');
+    height: 650px;
+    background-size: cover;
+    content: "";
+    position: absolute;
+    top: 100;
+    left: 0;
+  z-index: -1;
+  width: 100%;
+ filter: brightness(0.6);
+}
+.img-mr{
+    padding-top: 55px;
+    overflow: hidden;
+}
+.details{
+    position: relative;
+    bottom: 240px;
+    left: 40px;
+}
+.buy-link{
+    position: relative;
+    bottom: 140px;
+    left: 45px;
+    visibility: hidden;
+}
+.main:hover{
+    filter: brightness(0.9);
+}
+.main:hover .buy-link{
+    visibility: visible;
+}
+.main-bar{
+    border-bottom: 2px solid #80808017;
+}
+.sub-bar{
+    margin-top: -40px;
+    margin-right: 70px;
+}
+.bar-head{
+    margin-left: 120px;
+}
+.bar-2{
+    padding: 0px 15px;
+}
+.new{
+    width: 280px;
+    text-align: center;
+}
+.new-1{
+    margin-left: 40px;
+}
+.new-img{
+    padding: 0px 10px;
+}
+.txt{
+    position: relative;
+    bottom: 350px;
+    left: 298px;
+    width: 52px;
+    padding: 0px 10px;
+}
+.nav-title{
+    margin-top: -70px;
+    margin-left: 160px;
+}
+.line{
+    text-decoration: line-through;
+    color: red;
+    margin-left: 5px;
+}
+.nav-link:hover{
+    border: none;
+}
+.all-item{
+    border-bottom: 3px solid red;
+}
+.item-2:hover{
+    border-bottom: 3px solid red;
+    margin-left: 15px;
+}
+.link-spc {
+    padding: 25px 20px;
+}
+.card-slide{
+    margin-top: 100px;
+}
+.main-nav{
+    margin-left: 154px;
+    margin-right: 120px;
+}
+.cstmer{
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.des-img{
+    margin-right: 120px;
+}
+.des-info{
+    margin-top: -55px;
+    margin-left: 55px;
+}
+.des-info1{
+    margin-top: -15px;
+    margin-left: 50px;
+}
+.ban-img{
+    width: 90%;
+    height: 200px;
+    filter: brightness(0.7);
+}
+.img-text{
+    position: relative;
+    bottom: 135px;
+    left: 25px;
+}
+.ban-img2{
+    width: 520px;
+    height: 200px;
+    filter: brightness(0.7);
+}
+.parent{
+    margin-left: 100px;
+}
+.img-btn{
+    margin-left: 50px;
+}
+.main-site{
+    margin-left: 100px;
+} 
+.site-img{
+    width: 92%;
+    height: 450px;
+    filter: brightness(0.6);
+    margin-top: -70px;
+}
+.site-1{
+    position: relative;
+    bottom: 340px;
+    right: 50px;
+}
+.frm{
+    width: 20%;
+    border-radius: 10px;
+    padding: 13px;
+    margin-left: 400px;
+}
+.frm-btn{
+    border-radius: 10px;
+    margin-left: 230px;
+    margin-top: -82px;
+    padding: 13px;
+    width: 12%;
+}
+.car-slide{
+    position: absolute;
+    background-color: red;
+    border-radius: 6px;
+    padding: 18px;
+    left: -23px;
+    top: 165px;
+}
+.car-slide2{
+    position: absolute;
+    background-color: red;
+    padding: 18px;
+    border-radius: 5px;
+    right: -50px;
+    top: 165px;
+}
+.up-icon{
+    position: relative;
+    left: 640px;
+    bottom: 50px;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    width: 48px;
+    font-size: 25px;
+    height: 47px;
+    padding-top: 9px;
+    padding-left: 3px;
+    background-color: red;
+}
+.main-mens{
+    display: flex;
+}
+.main-mens::before{
+    content: "MEN'S WEAR";
+    position: absolute;
+    color: white;
+    left: 25px;
+    top: 480px;
+    font-size: 60px;
+    /* font-weight: bolder; */
+    z-index: 1;
+}
+.sub-ban1{
+    background-image: url('../images/men-ban1.webp');
+    background-repeat: no-repeat;
+    width: 35%;
+    height: 510px;
+    filter: brightness(0.6);
+}
+.sub-ban2{
+    background-image: url('../images/men-ban4.webp');
+    background-repeat: no-repeat;
+    width: 34%;
+    height: 510px;
+    filter: brightness(0.6);
+}
+.sub-ban3{
+    background-image: url('../images/men-ban3.webp');
+    background-repeat: no-repeat;
+    width: 35%;
+    height: 510px;
+    filter: brightness(0.6);
+}
+.main-div{
+    border: 1px solid rgb(180, 178, 178);
+    margin-top: 50px;
+    width: 300px;
+    margin-left: 40px;
+  }
+  .category{
+    padding: 10px;
+  }
+  .mens-wear{
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-bottom: 1px;
+    margin-top: -8px;
+    font-size: 17px;
+  }
+  .add{
+    margin-left: 117px;
+    font-size: 23px;
+  }
+  .add1{
+    margin-left: 162px;
+    font-size: 23px;
+  }
+  .add2{
+    margin-left: 145px;
+    font-size: 23px;
+  }
+  .add3{
+    margin-left: 150px;
+    font-size: 23px;
+  }
+  .add4{
+    margin-left: 171px;
+    font-size: 23px;
+  }
+  .list{
+    margin-left: 40px;
+  }
+  .img1{
+    display: flex;
+    margin-left: 16px;
+    flex-wrap: wrap;
+    margin-top: 36px;
+  }
+  .img-mrgn{
+    padding: 0px 10px;
+  }
+  .main-ca{
+    position: relative;
+    overflow: hidden;
+    border: none;
+  }
+  .ca{
+    position: absolute;
+    width: 92%;
+    height: 17%;
+    top: -58px;
+    color: white;
+    background: rgba(0,0,0,0.8);
+    transition: 0.5s;
+  }
+  .main-ca:hover .ca{
+    top: 0;
+  }
+  .ca-icon{
+    padding: 10px;
+    font-size: 30px;
+  }
+  .icon-link{
+    color: white;
+  }
+  .icon-link:hover{
+       color: white;
+  }
+  .latest-img{
+    width: 35%;
+      margin-top: 17px;
+      margin-left: 15px;
+  }
+  .star1{
+    color: brown;
+  }
+  .latest-info{
+    margin-left: 160px;
+      margin-top: -88px;
+  }
+  .latest-price{
+    margin-top: -10px;
+  }
+  .m-footer1{
+    padding-bottom: 25px;
+    margin-top: -140px;
+  }
+  .m-footer{
+    margin-top: 100px;
+    padding-bottom: 25px;
+  }
+  .fot-list{
+    margin-top: 50px;
+  }
+  .fot-logo{
+    max-width: 260px;
+  }
+  .s-logo{
+    max-width: 260px;
+    padding: 0px 10px;
+  }
+  .fot-info{
+    margin-left: 15px;
+    font-size: 18px;
+  }
+  .f-head{
+    padding: 0px 80px;
+  }
+  .end-fot{
+    padding-bottom: 12px;
+    padding-top: 30px;
+    background-color: #000000e6;
+  }
+  .end-info{
+    margin-top: -27px;
+  }
+  .icon1{
+    font-size: 25px;
+    padding: 0px 15px;
+  }
+  .icn{
+    margin-left: 30px;
+  }
+  /* css of women's wear */
+  .sub-ban4{
+    background-image: url('../images/woman-ban.webp');
+    background-repeat: no-repeat;
+    width: 35%;
+    height: 510px;
+    filter: brightness(0.6);
+}
+.sub-ban5{
+    background-image: url('../images/womanban2.webp');
+    background-repeat: no-repeat;
+    width: 34%;
+    height: 510px;
+    filter: brightness(0.6);
+}
+.sub-ban6{
+    background-image: url('../images/womenban3.webp');
+    background-repeat: no-repeat;
+    width: 35%;
+    height: 510px;
+    filter: brightness(0.6);
+}
+.main-womens::before{
+    content: "WOMEN'S WEAR";
+    position: absolute;
+    color: white;
+    left: 25px;
+    top: 480px;
+    font-size: 60px;
+    z-index: 1;
+}
+.sale-img{
+    max-width: 30%;
+    margin-top: 60px;
+    margin-left: 130px;
+    animation-name: sale;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes sale{
+    50%{filter: brightness(0.4);}
+    75%{filter: brightness(0.5);}
+    100%{filter: brightness(0.6);}
+}
+.sale-info{
+    font-size: 20px;
+    margin-top: 30px;
+    line-height: 38px;
+}
+.sale-btn{
+    margin-left: 170px;
+    padding: 13px 18px;
+}
+.main-sale{
+    width: 37%;
+    margin-left: 200px;
+    margin-top: 110px;
+}
+/* Css of kids Wear */
+.sub-ban7{
+    background-image: url('../images/kid-ban1.webp');
+    background-repeat: no-repeat;
+    width: 35%;
+    height: 510px;
+    filter: brightness(0.6);
+}
+.sub-ban8{
+    background-image: url('../images/kid-ban2.webp');
+    background-repeat: no-repeat;
+    width: 34%;
+    height: 510px;
+    filter: brightness(0.6);
+}
+.sub-ban9{
+    background-image: url('../images/kid-ban3.webp');
+    background-repeat: no-repeat;
+    width: 35%;
+    height: 510px;
+    filter: brightness(0.6);
+}
+.main-kids::before{
+    content: "KID'S WEAR";
+    position: absolute;
+    color: white;
+    left: 25px;
+    top: 480px;
+    font-size: 60px;
+    z-index: 1;
+}
+/* Css of Contact Us */
+.sub-ban10{
+    background-image: url('../images/site.webp');
+    background-size: cover;
+    max-width: 100%;
+    height: 500px;
+    filter: brightness(0.6);
+}
+.main-cntct::before{
+    content: "CONTACT US";
+    position: absolute;
+    color: white;
+    left: 25px;
+    top: 480px;
+    font-size: 60px;
+    z-index: 1;
+}
+.cntct-map{
+    width: 85%;
+    height: 325px;
+    margin-left: 100px;
+    margin-top: 55px;
+}
+.cntct{
+    margin-top: 70px;
+}
+.sub-cntct{
+    margin-left: 100px;
+}
+.cntct-head{
+    padding: 18px 67px;
+    position: relative;
+}
+.cntct-head2{
+    margin-top: 30px;
+}
+.loc-icon{
+    position: absolute;
+    border: 1px solid #e1e1e1;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: #dc3545;
+    color: white;
+    font-size: 32px;
+    top: 41px;
+    left: -27px;
+}
+.sub-cntct2{
+    margin-left: 70px;
+}
+.inp-1{
+    width: 150%;
+    padding: 10px;
+    border: 1px solid #e1e1e1;
+}
+.inp-1:focus{
+    outline: none;
+    box-shadow: none;
+    border: 1px solid #e1e1e1;
+}
+.inp-2{
+    width: 150%;
+    margin-left: 114px;
+    border: 1px solid #e1e1e1;
+    padding: 10px;
+}
+.inp-2:focus{
+    outline: none;
+    box-shadow: none;
+    border: 1px solid #e1e1e1;
+}
+.cntct-text{
+    width: 147%;
+    border: 1px solid #ced4da;
+    resize: none;
+}
+.cntct-text:focus{
+    outline: none;
+    box-shadow: none;
+    border: 1px solid #e1e1e1;
+}
+.cntct-btn{
+    padding: 12px 25px;
+}
+/* Css of Sign Up page */
+.main-sign{
+    margin: 60px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.sign-img{
+    width: 48%;
+    /* margin: 0 auto; */
+    margin-left: 87px;
+    margin-top: 150px;
+    border-radius: 5px;
+}
+.sign-sec1{
+    width: 30%;
+    height: 550px;
+}
+.s-log{
+    margin-left: 40px;
+}
+.sign-icon{
+    font-size: 25px;
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    padding: 5px;
+}
+.sub-sign{
+    margin-left: 60px;
+}
+.main-sign-icons{
+    margin-left: 50px;
+}
+.sign-sec2{
+    width: 60%;
+    background-color: white;
+    position: relative;
+}
+.log-sec{
+    padding: 60px 0px;
+}
+.user-icn{
+    position: absolute;
+    top: 125px;
+    padding-left: 5px;
+    font-size: 20px;
+}
+.icn-2{
+    top: 190px;
+}
+.icn-3{
+    top: 253px;
+}
+.icn-4{
+    top: 312px;
+}
+.icn-5{
+    top: 375px;
+}
+.sign-frm{
+    margin-left: 160px;
+    margin-top: 30px;
+}
+.sign-btn{
+    margin-left: 260px;
+    padding: 10px 35px;
+}
+.sign-in{
+    padding-left: 33px;
+}
+.sign-in:focus{
+    outline: none;
+    box-shadow: none;
+    border-top: none;
+}
+/* Css of log-In Page */
+.log-in-btn{
+    width: 50%;
+    padding: 12px;
+    margin-left: 131px;
+}
+.log-btn{
+    background-color: #1877f2;
+}
+.insta{
+    border: none;
+    background: #f09433; 
+background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+}
+.main-log{
+    margin-left: 160px;
+}
+.user-icn2{
+    font-size: 33px;
+    position: absolute;
+    bottom: 134px;
+    color: white;
+    right: 384px;
+}
+.log-1{
+    height: 597px;
+}
+.user-icn3{
+    bottom: 68px;
+}
+.log-user{
+    top: 137px;
+}
+.log-user2{
+    top: 202px;
+}
+/* css of cart */
+.cart::before{
+    background-image: url('../images/cart.jpg');
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    content: "";
+    position: absolute;
+  z-index: -1;
+ filter: brightness(0.6);
+}
+.cart-head{
+    padding-top: 352px;
+    padding-left: 42px;
+    font-size: 55px;
+}
+.link-cart{
+    padding: 15px 55px;
+}
+.cart-nav{
+    margin-top: 180px;
+}
+.main-cart{
+    margin-top: 40px;
+}
+.s-cart-img{
+    width: 18%;
+    margin-left: 115px;
+}
+.cart-item{
+    padding: 20px 65px;
+}
+.c-item2{
+    margin-left: -13px;
+    margin-top: 30px;
+}
+.w-price{
+    margin-left: -6px;
+    margin-top: 30px;
+}
+.k-price{
+    margin-left: 25px;
+    margin-top: 30px;
+}
+.c-price{
+    margin-left: 11px;
+    margin-top: 30px;
+}
+.c-quant{
+    margin-left: 47px;
+    margin-top: 43px;
+    height: 30px;
+}
+.c-total{
+   margin-left: 50px;
+   margin-top: 30px;
+}
+.c-icon{
+    font-size: 31px;
+    margin-left: -18px;
+    margin-top: 20px;
+}
+.cart-btn{
+    border: none;
+    padding: 10px;
+    margin-left: 170px;
+}
+.cart-btn2{
+    margin-right: 200px;
+}
+.c-end-btn{
+    border: none;
+    padding: 7px 35px;
+    background-color: #ced4da;
+}
+.c-end-btn2{
+    border: none;
+    padding: 7px 25px;
+}
+.cart-inp{
+    width: 65%;
+    margin-top: 15px;
+    border: none;
+    padding: 8px;
+}
+.code{
+    background: #ced4da;
+    width: 30%;
+    margin-top: 41px;
+    margin-left: 163px;
+    height: 200px;
+}
+.sub-code{
+    padding: 40px 23px;
+}
+.code-btn{
+    border: none;
+    padding: 8px 20px;
+    margin-left: -10px;
+}
+.cart-total{
+    margin-top: 41px;
+    margin-left: 243px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.sub-cart{
+    width: 340px;
+    padding: 10px;
+}
+.cart-info{
+    margin-left: 20px;
+    padding: 10px;
+}
+.cart-span2{
+    margin-left: 203px;
+}
+.cart-span3{
+    margin-left: 175px;
+}
+.cart-span{
+    margin-left: 150px;
+}
+.cart-footer{
+    margin-top: 170px;
+}
+.payment{
+    margin-right: 216px;
+    margin-top: 20px;
+}
+.pay-btn{
+    border: none;
+    padding: 10px;
+    width: 300px;
+}
+.pay{
+    margin-left: 5px;
+}
+.pay-1{
+    margin-left: 137px;
+}
+/* css of checkout page */
+.check-out{
+    margin-top: 60px;
+}
+.check-form{
+    margin-left: 70px;
+}
+.check-2{
+    margin-left: 46px;
+    border: 1px solid #e1e1e1;
+    padding-top: 40px;
+    padding-left: 35px;
+    width: 80%;
+    margin-top: 22px;
+}
+.check-total{
+    margin-left: 240px;
+}
+.check-price{
+    margin-left: 221px;
+}
+.check-border{
+    border-bottom: 2px solid #e1e1e1;
+    margin-right: 44px;
+}
+.sub-check{
+    margin-left: 180px;
+}
+.sub-check-price{
+    margin-left: 60px;
+}
+.s-check{
+    margin-left: 12px;
+}
+.sub-check-price2{
+    margin-left: 83px;
+}
+.last-check{
+    background-color: #f3f2f2;
+    padding: 20px 36px;
+    margin-left: -35px;
+    /* width: 95%; */
+    margin-top: 45px;
+}
+.check-btn{
+    border: none;
+    padding: 10px;
+    width: 60%;
+    /* border-radius: 21px; */
+    margin-top: 37px;
+    margin-bottom: 40px;
+    margin-left: 80px;
+}
+.check-inp:focus{
+    outline: none;
+    box-shadow: none;
+}
+/* Css of product Details */
+.prod-ban::before{
+    background-image: url('../images/product.webp');
+    width: 100%;
+    height: 540px;
+    background-size: cover;
+    content: "";
+    position: absolute;
+  z-index: -1;
+ filter: brightness(0.6);
+}
+.main-product{
+    padding-top: 50px;
+    justify-content: center;
+}
+.product{
+    margin-left: 50px;
+}
+.prod-detail{
+    background-color: white;
+    width: 35%;
+    padding: 20px 20px;
+}
+.div1{
+    width: 18px;
+    background: red;
+    height: 18px;
+    margin: 0px 5px;
+}
+.main-clr{
+    margin-top: -10px;
+}
+.div2{
+    background-color: black;
+}
+.div3{
+    background-color: #1877f2;
+}
+.prod-btn{
+    margin-top: 20px;
+} 
+/* css of flip cards */
+/* .flip-img{
+    width: 80%;
+} */
+.box{
+    width: 284px;
+    height: 284px;
+    perspective: 1000px;
+    margin: 15px;
+}
+.box-content{
+    transform-style: preserve-3d;
+    transition: transform 0.5s;
+    position: relative;
+}
+.flip-img{
+    width: 284px;
+    height: 284px;
+}
+.box-front{
+    width: 350px;
+    height: 350px;
+    position: absolute;
+    backface-visibility: hidden;
+}
+.box-back{
+    width: 284px;
+    height: 284px;
+    background-color: white;
+    border: 1px solid #ced4da;
+    border-radius: 10px;
+    position: absolute;
+    padding: 15px;
+    transform: rotateY(180deg);
+    backface-visibility: hidden;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.box:hover .box-content{
+    transform: rotateY(180deg);
+}
+.back-card{
+    margin-top: -10px;
+}
+.front-info{
+    margin-left: 90px;
+}
+.sale-dropdown{
+    position: static;
+}
+.sale-menu{
+    width: 595px;
+    margin-left: 396px;
+    height: 120px;
+    
+}
+.sale-items{
+    padding: 40px 60px;
+}
+.sale-head{
+    margin-left: -30px;
+}
+.sale-ban{
+    background-image: url('../images/saleShirt/Neutral\ Minimalist\ Special\ Sale\ Banner.png');
+    background-size: cover;
+    height: 585px;
+    width: 100%;
+    /* filter: brightness(0.6); */
+}
+.sale-ban2{
+    background-image: url('../images/saleShirt/w-sale35.png');
+}
+.sale-ban3{
+    background-image: url('../images/saleShirt/w-sale50.png');
+}
+.sale-ban4{
+    background-image: url('../images/saleShirt/m-sale25.png');
+}
+.sale-ban5{
+    background-image: url('../images/saleShirt/m-sale35.png');
+}
+.sale-ban6{
+    background-image: url('../images/saleShirt/m-sale50\ \(2\).png');
+}
+.sale-25{
+    /* background-color: red; */
+    width: 13%;
+    border-radius: 50%;
+    margin: 50px 90px;
+    height: 170px;
+}
+.s-head{
+    padding: 55px 0px;
+}
+.box-1{
+    width: 320px;
+    height: 320px;
+}
+.box-back2{
+    width: 320px;
+    height: 320px;
+}
+.flip-img2{
+    width: 320px;
+    height: 320px;
+}
+.sale-cards{
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.dscnt{
+    position: absolute;
+    top: 0px;
+}
+.front-info2{
+    margin-left: 120px;
+}
+.sale-circle{
+    justify-content: center;
+}
+.s-1{
+    background-image: url('../images/saleShirt/1.png');
+    width: 100%;
+    height: 510px;
+    background-size: cover;
+    filter: brightness(0.7);
+}
+.s-2{
+    background-image: url('../images/saleShirt/m-s-1.png');
+    width: 100%;
+    height: 510px;
+    background-size: cover;
+    filter: brightness(0.7);
+}
+.s-3{
+    background-image: url('../images/saleShirt/k-s-1.png');
+    width: 100%;
+    height: 510px;
+    background-size: cover;
+    filter: brightness(0.7);
+}
+.shrt-1{
+    background-image: url('../images/saleShirt/s.jpg');
+    background-size: cover;
+    width: 91%;
+    height: 319px;
+    background-position: center;
+}
+
+
